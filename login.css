@@ -1,0 +1,145 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    margin: 0; 
+    padding-bottom: 10px; 
+    font-size: 30px; 
+}
+
+p {
+    margin: 10px 0 20px 0; 
+    font-size: 16px; 
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 400px;
+    padding: 50px;
+    font-size: 18px;
+    border: 2px solid black ;
+    background-color: #2b2738;
+    border-radius: 15px;
+    color: #FEFEFE;
+}
+
+form div input:not(#chkshow,#create){
+    width:85%;
+    border: 2px solid #c4c4c4;
+}
+form div input:not(#chkshow){
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 30px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+#chkshow{
+    justify-self: center;
+    width:15px;
+    height: 15px;
+}
+
+.failure-icon{
+    color: red;
+}
+
+#sub{
+    display: flex;
+    justify-content: center;
+}
+
+#chk{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+#apple{
+    height: 40px;
+    width: 32.53px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:197px;
+    height:60px;
+    margin: 10px;  
+    border: 2px solid #FEFEFE;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    color:#FEFEFE;
+    background-color: #2b2738;
+}
+
+button img {
+    margin-right: 8px; 
+}
+
+
+
+
+#create{
+    width:100%;
+    background-color: #6E54B5;
+    border: 0px solid #6E54B5;
+    font-size: 24px;
+    color:#FEFEFE;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+input:hover,button:hover,a:hover{
+    opacity: 0.8;
+}
+
+form div input:not(#chkshow,#create){
+    background-color: #464058;
+    color:#afafaf;
+    border: none;
+}
+
+input::placeholder{
+    color:#FEFEFE;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.success-icon{
+    color:rgb(38, 208, 36);
+}
+
+a,a:visited{
+    color:#b9a0ff;
+}
